@@ -1,0 +1,13 @@
+.admin_passenger_list{
+    display: flex;
+    flex-direction: column;
+}
+.admin_passenger_list > .filter{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.admin_passenger_list > .filter >p{
+    font-size: medium;
+    color: black;
+}

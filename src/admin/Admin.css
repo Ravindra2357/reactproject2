@@ -1,0 +1,37 @@
+
+.admin_dashboard{
+    display: grid;
+    grid-column: auto;
+    margin: 5%;
+    margin-bottom: 0%;
+    width: 90%;
+    overflow: scroll !important;
+    
+    /* -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    /* scrollbar-width: none;  */ 
+}
+.admin_dashboard::-webkit-scrollbar {
+    display: none;
+  }
+  .service_link{
+    text-decoration: none !important;
+  }
+  .airline_list{
+      width: 100%;
+      border-collapse: collapse;
+      border-spacing: 0;
+      height: 50vh;
+      color:#6a5d5d;
+      /* overflow-x: hidden; */
+  }
+  .airline_list tr:nth-of-type(odd){
+    background-color:#f3f2f8;;
+}
+.airline_list tr{
+    margin-bottom: 20px;
+}
+.airline_list td{
+    text-align: center;
+    border-bottom: 1px solid black;
+    
+}

@@ -1,0 +1,253 @@
+{
+    "flights": [
+      {
+        "id": 1,
+        "name": "Emirates",
+        "departure": "Chennai",
+        "arrival": "Bangalore",
+        "seats": 28,
+        "ancillary": {
+          "infant": false,
+          "wheelChair": false,
+          "vegMeals": false,
+          "nonVegMeals": false,
+          "specialMeals": true
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "name": "Ravindra",
+            "mailId": "ravindra@gmail.com",
+            "phoneNo": 9090909090,
+            "seatNo": 3,
+            "isCheckedIn": true,
+            "dob": "1997-07-02",
+            "ancillary": {
+              "infant": false,
+              "wheelChair": true,
+              "vegMeals": false,
+              "nonVegMeals": true,
+              "specialMeals": true
+            },
+            "passportDetails": {
+              "firstName": "Ravindra",
+              "lastName": "P",
+              "expiryDate": "2023-07-03",
+              "passportNumber": "PSP12345",
+              "address": ""
+            }
+          },
+          {
+            "id": 2,
+            "name": "Virat S",
+            "mailId": "virat@gmail.com",
+            "phoneNo": 9090945900,
+            "seatNo": 27,
+            "dob": "2000-07-02",
+            "isCheckedIn": false,
+            "ancillary": {
+              "infant": true,
+              "wheelChair": false,
+              "vegMeals": true,
+              "nonVegMeals": false,
+              "specialMeals": false
+            },
+            "passportDetails": {
+              "firstName": "Virat",
+              "lastName": "S",
+              "expiryDate": "2025-07-03",
+              "passportNumber": "PSP12345",
+              "address": "QQQ"
+            }
+          },
+          {
+            "id": 3,
+            "name": "Dhoni M",
+            "mailId": "dhoni@gmail.com",
+            "phoneNo": 8080808080,
+            "seatNo": 14,
+            "dob": "2000-07-02",
+            "isCheckedIn": true,
+            "ancillary": {
+              "infant": false,
+              "wheelChair": false,
+              "vegMeals": false,
+              "nonVegMeals": false,
+              "specialMeals": false
+            },
+            "passportDetails": {
+              "firstName": "Dhoni",
+              "lastName": "M",
+              "expiryDate": "2024-07-03",
+              "passportNumber": "PSP12345",
+              "address": "FFF"
+            }
+          },
+          {
+            "id": 4,
+            "name": "Jadeja K",
+            "mailId": "jadeja@gmail.com",
+            "phoneNo": null,
+            "seatNo": null,
+            "isCheckedIn": false,
+            "dob": "2002-08-17",
+            "ancillary": {
+              "infant": false,
+              "wheelChair": false,
+              "vegMeals": false,
+              "nonVegMeals": true,
+              "specialMeals": false
+            },
+            "passportDetails": {
+              "firstName": "Jadeja",
+              "lastName": "K",
+              "expiryDate": "2025-08-23",
+              "passportNumber": "LKJU678",
+              "address": "EEE"
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Air India",
+        "departure": "Chennai",
+        "arrival": "Mumbai",
+        "seats": 24,
+        "ancillary": {
+          "infant": false,
+          "wheelChair": false,
+          "vegMeals": true,
+          "nonVegMeals": true,
+          "specialMeals": true
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "name": "rohith J",
+            "mailId": "rohith@gmail.com",
+            "phoneNo": 7070707070,
+            "isCheckedIn": true,
+            "seatNo": 2,
+            "dob": "2001-07-02",
+            "ancillary": {
+              "infant": false,
+              "wheelChair": false,
+              "vegMeals": true,
+              "nonVegMeals": true,
+              "specialMeals": true
+            },
+            "passportDetails": {
+              "firstName": "Rohith",
+              "lastName": "J",
+              "expiryDate": "2023-07-03",
+              "passportNumber": "PSP12345",
+              "address": "ZZZ"
+            }
+          },
+          {
+            "id": 2,
+            "name": "Bhargav B",
+            "mailId": "bhargav@gmail.com",
+            "phoneNo": 5565556556,
+            "seatNo": 17,
+            "isCheckedIn": true,
+            "dob": "2018-07-02",
+            "ancillary": {
+              "infant": false,
+              "wheelChair": false,
+              "vegMeals": true,
+              "nonVegMeals": true,
+              "specialMeals": true
+            },
+            "passportDetails": {
+              "firstName": "Bhargav",
+              "lastName": "B",
+              "expiryDate": "2022-07-03",
+              "passportNumber": "PSP12345",
+              "address": "XXX"
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Indigo",
+        "departure": "Bangalore",
+        "arrival": "Bhuvaneswar",
+        "seats": 24,
+        "ancillary": {
+          "infant": false,
+          "wheelChair": false,
+          "vegMeals": false,
+          "nonVegMeals": true,
+          "specialMeals": true
+        },
+        "passengers": [
+          {
+            "id": 1,
+            "name": "Raina",
+            "mailId": "raina@gmail.com",
+            "phoneNo": 7897897899,
+            "seatNo": null,
+            "dob": "2001-07-02",
+            "isCheckedIn": true,
+            "ancillary": {
+              "infant": false,
+              "wheelChair": true,
+              "vegMeals": true,
+              "nonVegMeals": false,
+              "specialMeals": true
+            },
+            "passportDetails": {
+              "firstName": "Raina",
+              "lastName": "P",
+              "expiryDate": "2025-07-03",
+              "passportNumber": "PSP12345",
+              "address": "YYY"
+            }
+          },
+          {
+            "id": 2,
+            "name": "Priyadarshi S",
+            "mailId": "priyadardhi@gmail.com",
+            "phoneNo": null,
+            "seatNo": 3,
+            "isCheckedIn": true,
+            "dob": "2009-07-22",
+            "ancillary": {
+              "infant": false,
+              "wheelChair": true,
+              "vegMeals": false,
+              "nonVegMeals": true,
+              "specialMeals": false
+            },
+            "passportDetails": {
+              "firstName": "Priyadarshi",
+              "lastName": "S",
+              "expiryDate": "2015-11-24",
+              "passportNumber": "DFG3WE",
+              "address": "hhhh"
+            }
+          }
+        ]
+      }
+    ],
+    "users":[ 
+      {
+      "userName": "admin",
+      "password": "admin",
+      "role":"admin"
+    },
+    {
+      "userName": "staff",
+      "password": "staff",
+      "role":"staff"
+    },
+    {
+      "userName": "ravindra",
+      "password": "ravindra",
+      "role":"staff"
+    }
+  ]
+  }
